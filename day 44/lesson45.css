@@ -1,0 +1,87 @@
+/* "* {
+}" - css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 78%);
+
+}
+.card{
+    width: 800px;
+    height: 550px;
+    background-color: white;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+}
+.frag{
+    width: 400px;
+    height: 550px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.p1{
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+.texts{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+h1{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 43px;
+    height: 200px;
+    width: 300px;
+}
+.p2{
+    color: hsl(228, 12%, 48%);
+    font-size: 19px;
+    font-family: "Montserrat";
+    width: 300px;
+    position: relative;
+    bottom: 30px;
+}
+.p3{
+    color: hsl(158, 36%, 37%);
+    font-weight: 500;
+    font-size: 43px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: "Fraunces";
+    font-weight: 600;
+    position: relative;
+    bottom: 20px;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    height: 55px;
+    width: 330px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+}
+/* 
+position: relative;
+left - მარცხნიდან მარჯვნივ
+right - მარჯვნიდან მარცხნივ
+top - მაღლიდან დაბლა
+bottom - დაბლიდან მაღლა
+*/
