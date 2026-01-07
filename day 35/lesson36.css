@@ -1,0 +1,30 @@
+/* tag selector - */
+
+h1 {
+    color: green;
+    background-color: aqua;
+}
+
+/* class selector - */
+
+.class1 {
+    color: red;
+    background-color: rgb(35, 97, 89);
+}
+
+.class2 {
+    color: red;
+    background-color: greenyellow;
+}
+
+/* id selector */
+
+#h1 {
+    color: yellow;
+    background-color: black;
+}
+
+#h2 {
+    color: rgb(52, 52, 196);
+    background-color: cadetblue;
+}
