@@ -1,0 +1,86 @@
+<!-- 1) drop-down menu არის ელემენტი რომელიც საშუალობას აძლევს მომხმარებელს აირჩიოს ერთი ან რამოდენიმე ვარიანტი სიიდან. ვიყენებთ:
+. ინფორმაციის დალაგებისთვის, როცა ბევრი ვარიანტია და ეკრანზე 
+არ გვინდა ზედმეტი სივრცე დაიკავოს.
+. მომხმარებლისგან კონკრეტული არჩევანის მისაღებად, მაგალითად: ქვეყანა, ენა, თარიღი.
+. ფორმებში მონაცემების შეყვანის გამარტივებისთვის.
+როგორ ვქმნით: ვიყენებთ <select> თეგს და შიგნით ვამატებთ <option> თეგებს.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>select!</title>
+    </head>
+    <body>
+        <!-- 2) -->
+        <h1>select your favorite programming language:</h1>
+        <select>
+            <option>python</option>
+            <option>javascript</option>
+            <option>c#</option>
+            <option>c++</option>
+        </select>
+        <!-- 3) -->
+        <br> <br> ------------------------------------------------- <br> <br>
+        <form>
+            <label for="foods">choose your favorite food:</label>
+            <select id="foods" name="foods">
+                <option value="khinkali">khinkali</option>
+                <option value="mtsvadi">mtsvadi</option>
+                <option value="lobiani" selected>lobiani</option>
+                <option value="chakapuli">chaqapuli</option>
+                <option value="khachapuri">khachapuri</option>
+            </select>
+        </form>
+        <!-- 4.1) -->
+        <br> ------------------------------------------------- <br> <br>
+        <form>
+            name: 
+            <input type="text" name="name">
+            <br>
+            select one
+            <br>
+            category:
+            <select name="category">
+                <option value="games">games</option>
+                <option value="movies">movies</option>
+                <option value="music">music</option>
+            </select>
+            <br>
+            subcategory:
+            <select name="subcategory">
+                <option value="cricket">cricket</option>
+                <option value="football" selected>football</option>
+                <option value="baseball">baseball</option>1
+                <option value="tennis">tennis</option>
+            </select>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        <!-- 4.2) -->
+        <br> ------------------------------------------------- <br> <br>
+        <form>
+            first name: 
+            <input type="text" name="firstname">
+            <br> <br>
+            last name: 
+            <input type="text" name="lastname">
+            <br> <br>
+            email: 
+            <input type="email" name="email">
+            <br> <br>
+            age: 
+            <input type="number" name="age">
+            <br> <br>
+            what is your favorite fruit?
+            <select name="fruit">
+                <option>oranges</option>
+                <option>apple</option>
+                <option>banana</option>
+                <option>watermelon</option>
+            </select>
+            <br> <br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>

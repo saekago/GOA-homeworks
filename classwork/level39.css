@@ -1,0 +1,29 @@
+/* 4) */
+h1 {
+    color: white;
+    background-color: gray;
+}
+
+.class1 {
+    color: blue;
+    background-color: yellow;
+}
+
+#id1 {
+    color: red;
+    background-color: black;
+}
+/* 5) */
+div {
+    color:rgb(150, 69, 69);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.class2 {
+    background-color: gray;
+}
+
+#id2 {
+    background-color: black;
+}

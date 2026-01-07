@@ -1,0 +1,17 @@
+/* 2) */
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p {
+    color: rgb(119, 64, 64);
+    font-size: 20px;
+    text-align: center;
+}
+div {
+    height: 125px;
+    background-color: rgb(121, 121, 121);
+    border: 1px solid black;
+    border-radius: 100px;
+}
+/* 3) external css არის სტილის ფაილი და მას ვუკავშირებთ html ფაილთან, ის იმაში ჯობია internal css რომ შეგვიძლია external css დავუკავშიროთ ბევრ html ფაილს, ხოლო internal css იწერება მარტო ერთ html ფაილში. */

@@ -1,0 +1,25 @@
+<!-- 1) inline element - იკავებს მხოლოდ იმდენ სივრცეს, რამდენიც მას სჭირდება ეკრანზე გამოსაჩენად,
+block level element - იკავებს მშობელი ელემენტის მაქსიმალურ სიგანეს. -->
+
+<!-- 2) div - თეგი რომელიც არის კონტერინერ თეგი და ის აჯგუფებს ელემენტებს. -->
+
+<!-- 3) -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>div</title>
+    </head>
+    <body>
+        <div style="color: red; background-color: black;">
+            <p>paragraph 1</p>
+            <p style="color: black; background-color: red;">paragraph 2</p>
+            <p>paragraph 3</p>
+            <p style="color: purple; background-color: gray;">paragraph 4</p>
+            <p style="color: cyan; background-color: blue;">paragraph 5</p>
+        </div>
+        <p>paragraph 6</p>
+        <!-- "paragraph 6"-ს არ გადაედო მემკვიდრეობითი სტილები div თეგისგან რადგან ის არ არის div თეგის შიგნით მოთავსებული. -->
+    </body>
+</html>

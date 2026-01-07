@@ -1,0 +1,35 @@
+button {
+    background-color: rgb(0, 123, 255);
+    color: white;
+}
+button:hover {
+    background-color: rgb(0, 90, 200);
+}
+.hex {
+    background-color: #ff7b00;
+    color: #ffffff;
+}
+.hex:hover {
+    transform: scale(1.1);
+    background-color: #ffa64d;
+}
+#id1 {
+    background-color: gold;
+    color: black;
+}
+#id2 {
+    background-color: limegreen;
+    color: white;
+}
+#id3 {
+    background: linear-gradient(45deg, #00c3ff, #0047ff);
+    color: white;
+}
+#id4 {
+    background-color: crimson;
+    color: white;
+}
+#id5 {
+    background-color: purple;
+    color: white;
+}

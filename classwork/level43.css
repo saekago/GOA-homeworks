@@ -1,0 +1,31 @@
+#p1 {
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+#p2 {
+    text-align: right;
+    text-decoration: underline;
+}
+
+#p3 {
+    color: rgb(255, 0, 0);
+    text-shadow: 4px 4px 1px black;
+}
+
+#p4 {
+    text-align: center;
+    text-decoration: line-through;
+}
+
+#p5 {
+    text-transform: uppercase;
+    color: blue
+}
+
+#p6 {
+    text-align: right;
+    font-style: italic;
+    background-color: gray;
+}
